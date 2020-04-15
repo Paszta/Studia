@@ -1,0 +1,38 @@
+
+#Baner{
+    background: #eba7a7;
+    width: 100%;
+    text-align: center;
+
+}
+#Pasek{
+    background: #dfe0a4;
+    flex: 50%;
+}
+#Pudełeczko{
+    flex: 100%;
+    text-align: center;
+
+}
+
+#Menu{
+    background: #92c4a1;
+    
+}
+#Tresc{
+    background: #7fa6b6;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
+}
+#Stopka{
+    background: #bb97bd;
+    
+
+}
+#kontener{
+    display: flex;
+    width: 100%;
+    margin: 0em;
+    padding: 0%;
+}

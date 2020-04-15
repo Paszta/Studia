@@ -1,0 +1,24 @@
+table{
+    background-color: #c4c9b1;
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+    border: 3pt #ef9d87 groove;
+ }
+ caption{
+     font-size: 120%;
+     font-weight: bold;
+ }
+ tfoot, thead, tbody{
+     background-color: #c4c9b1;
+     color:#ef9d87;
+ }
+ td, th{
+     border: 1pt solid black;
+ }
+ tfoot a{
+     color: rgb(255, 167, 51);
+ }
+ *.parzysty{
+     background: #a5aa94;
+ }

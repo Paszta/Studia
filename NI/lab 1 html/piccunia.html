@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> pizze </title>
+    </head>
+    <body>
+            <div id="baner"><h2>Zamów pizze</h2></div>
+            <div id="menu">
+                    <a href="indeks.html">Podstawowe  znaczniki</a>
+                    <a href="tabele.html">Tworzenie tabel</a>
+                    <a href="formularze.html">Budowanie formularzy</a>
+                    <a href="piccunia.html">Zamów pizze</a>
+    
+                </div>
+        <form action="mailto:" method="POST">
+            <fieldset>
+            <legend>Rozmiar</legend>
+                <input type="radio" name="rozm" value="s" /> Mała <br/>
+                <input type="radio" name="rozm" value="m" /> Średnia <br/>
+                <input type="radio" name="rozm"  value="l" /> Duża <br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dodatki</legend>
+                    <input type="checkbox" name="pineapple" value="yes" /> Ananas <br/>
+                    <input type="checkbox" name="salami" value="yes" /> Salami <br/>
+                    <input type="checkbox" name="olives" value="yes" /> Oliwki <br/>
+                    <input type="checkbox" name="onion" value="yes" /> Cebula <br/>
+                    <input type="checkbox" name="ham" value="yes" /> Szyneczka <br/>
+                    <input type="checkbox" name="chicken" value="yes" /> Kurka <br/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sosy</legend>
+                   Wybierz sos: <select name = "ws" size="4" multiple>
+                    <option value="w1"> Czosnkowy </option>
+                    <option value="w2"> Pomidorowy łagodny </option>
+                    <option value="w3"> Pomidorowy z bazylią </option>
+                    <option value="w4"> Pomidorowy piekielny </option>
+                    </select> <br/>
+
+                    Dodatkowe uwagi: <br/> <textarea name="t1" rows = 5 cols=70>
+                    </textarea>
+
+            </fieldset>
+
+            <input type="submit" value="Wyślij zamówienie"/>
+            <input type="reset" value="Wyczysc wprowadzone dane" /> <br/>
+
+        </form>
+    </body>
+</html>

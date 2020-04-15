@@ -1,0 +1,40 @@
+#Baner{
+    background: #eba7a7;
+    text-align: center;
+}
+#Pasek{
+    background: #dfe0a4;
+    float: left;
+    width: 30%;
+    margin: 0px;
+    padding-bottom: 318px;
+}
+#Pudełeczko{
+    float: right;
+    width: 70%;
+    margin: 0px;
+    text-align: center;
+}
+
+#Menu{
+    background: #92c4a1;
+    
+}
+#Tresc{
+    background: #7fa6b6;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+#Stopka{
+    background: #bb97bd;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+#kontener{
+    width: 100%;
+    margin:0 ;
+}

@@ -1,0 +1,4 @@
+body { color: rgb(255, 102, 0); font-size: larger;}
+fieldset { background: orangered;
+           border: 10px solid  #e6bfa9;}
+legend {font-style: oblique; font-weight: bolder; font-size: 150%; color: #ffffff; }

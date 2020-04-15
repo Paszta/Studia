@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/tabele.css" type="text/css" />
+
+        <title> Tabela </title>
+    </head>
+    <body>
+        <div id="kontener">
+            <div id="baner"><h2>Szybki kurs HTML</h2></div>
+            <div id="menu">
+				<ul id="nav">
+					<li><a href="index.html">Podstawowe  znaczniki</a></li>
+					<li><a href="tabele.html">Tworzenie tabel</a></li>
+					<li><a href="">Przejdź do formualrzy</a>
+					<ul>
+						<li><a href="formularze.html">Pole formularza</a></li>
+						<li><a href="obliczenia.html">Obliczenia w formularzu</a></li>
+					</ul>
+					</li>
+					<li><a href="galeria.html" title="">Galeria</a></li>
+				</ul>
+			</div>
+			<div id="tresc"> <h1>Podstawowe znaczniki tablic to: </h1>
+                <ul>
+                    <li> &lt;table&gt; -znacznik calej tabelki</li>
+                    <li> &lt;caption&gt; -tytuł tabeli</li>
+                    <li> &lt;thead&gt;-nagółwek tabeli</li>
+                </ul>
+                <table>
+                    <caption>Popularność języków programowania</caption>
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Język Programowania</th> <th colspan="2">pozycja</th>
+                            </tr>
+                            <tr class="parzysty">
+                                <td>luty 2020</td> <td>2015</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td><td>1</td><td>2</td>
+                            </tr>
+                            <tr class="parzysty">
+                                <td>C</td><td>2</td><td>1</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Na podstawie: <br> <a href="https://validator.w3.org/"> https://validator.w3.org/ </a>                                    
+                                </td>
+                            </tr>
+                        </tfoot> 
+                </table>
+			</div>
+			<div id="pasek">
+				<div class="box">
+					<h3>Walidatory: </h3>
+						<ul>
+						<li> <a href="http://validator.w3.org/">HTML </a></li>
+						<li> <a href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
+					   </ul>					   
+				</div>
+				<div class="box">
+					<h3>Kursy: </h3>
+					<ul>
+						<li> <a href="http://www.w3schools.com/html/default.asp/"> HTML</a> </li>
+						<li> <a href="http://www.w3schools.com/html5/default.asp/"> HTML5</a></li>
+						<li> <a href="http://www.w3schools.com/css/default.asp/">CSS</a></li>
+						<li> <a href="http://www.w3schools.com/css3/default.asp/"> CSS3</a></li>
+					</ul>
+				</div>
+			</div>
+            <div id="stopka">&copy;BP</div>
+        </div>
+    </body>
+</html>

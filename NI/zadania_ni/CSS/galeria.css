@@ -1,0 +1,22 @@
+#galeria{
+    width: 80%;
+    margin: auto;
+}
+.pierwszy{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.drugi{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.trzeci{
+    display: inline-flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}

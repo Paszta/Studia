@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/formularze.css" type="text/css" />
+		<title> Formularz </title>
+	</head>
+	<body>
+		<div id="kontener">
+			<div id="baner"><h2>Szybki kurs HTML</h2></div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Podstawowe  znaczniki</a></li>
+					<li><a href="tabele.html">Tworzenie tabel</a></li>
+					<li><a href="formularze.html">Budowanie formularzy</a></li>
+				</ul>
+			</div>
+			<div id="tresc" >
+				<h1>Podstawowe znaczniki HTML to: </h1>
+                <form action="mailto:" method="POST">
+					<table border="0">
+						<tbody>
+                    <tr> <td>Nazwisko : </td> <td> <input type="text" name="nazwisko"/> </td> </tr> 
+                    <tr> <td>Wiek : </td> <td><input type="number" name="wiek"/></td> </tr>
+                    <tr><td>Państwo :</td> <td> <select name="panstwo">
+                    <option value="polska">Polska</option>
+                    <option value="sinne">Inne</option>
+					</select>
+					</td>
+					</tr>
+					<tr><td>Adres email :</td> <td> <input type="text" name="adres"/> </td></tr>
+				</tbody>
+			</table>
+					
+			<h3>Zamawaim kurs z języla</h3>
+			<input type="checkbox" name="php" value="php"/> PHP
+			<input type="checkbox" name="c/c++" value="c/c++"/> C/C++
+			<input type="checkbox" name="java" value="java"/> Java
+			<input type="checkbox" name="hla" value="hla"/> HLA
+			<br>
+			<h3>Sposób zapłaty</h3>
+			<input type="radio" name="zaplata" value="ec"/> Eurocard <br>
+			<input type="radio" name="zaplata" value="v"/> Visa <br>
+			<input type="radio" name="zaplata" value="pb"/> Przelew bankowy <br><br>
+			<input type="submit" value="Wyślij"/>
+			<input type="reset" value="Wyczyść"/>
+				
+                </form>
+			</div>
+			<div id="pasek">
+				<div class="box">
+					<h3>Walidatory: </h3>
+						<ul>
+						<li> <a href="http://validator.w3.org/">HTML </a></li>
+						<li> <a href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
+					   </ul>					   
+				</div>
+				<div class="box">
+					<h3>Kursy: </h3>
+					<ul>
+						<li> <a href="http://www.w3schools.com/html/default.asp/"> HTML</a> </li>
+						<li> <a href="http://www.w3schools.com/html5/default.asp/"> HTML5</a></li>
+						<li> <a href="http://www.w3schools.com/css/default.asp/">CSS</a></li>
+						<li> <a href="http://www.w3schools.com/css3/default.asp/"> CSS3</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="stopka">&copy;BP</div>
+		</div>
+	</body>
+</html>

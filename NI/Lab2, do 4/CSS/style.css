@@ -1,0 +1,64 @@
+body {background: #ef9d87; color: #efe3d3; margin: 0;}
+h2 {  
+    background: #c4c9b1;
+    color: #efe3d3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    }
+#stopka {background: #7d7d7d; color: #ef9d87; text-align: center; clear: both; width:100%; padding:5px 0 5px 0;}
+#menu { background: #f1e4dd;
+        color: #ef9d87;
+        float: left; 
+        padding: 1%;
+        width: 16%;
+        border: 2px dotted #ef9d87;}
+#nav{   text-align: left;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;}
+#menu li{   float: left; 
+            margin: 0px;
+            padding: 0%;
+            list-style: none;
+            padding-right: 3px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 90%;}    
+#menu a{    color: #a5aa94;
+            float: left;
+            display: block;
+            margin: 0px;
+            padding: 4px 8px;
+            text-decoration-style: solid;
+            border: 1px dotted #f1cdb7;
+            border-bottom: none;
+            background: #efe3d3;
+            }
+#menu a:hover{   background: #7d7d7d;
+                color: #ffffff;
+                text-decoration-style: none;
+
+}
+#tresc {background: #a5aa94;
+        color: #f1cdb7;
+        float: left;
+        padding: 1%;
+        width: 60%;}
+#tresc a{color:#efe3d3 ;}
+#pasek{
+        float: right;
+        width: 16%;
+        padding: 1%;
+    }
+#kontener { background: #f1e4dd;
+            width: 80%;
+            margin:0 auto;
+}
+*.box { background:#a5aa94;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    color:#f1cdb7;
+    padding:5px;
+    margin:5px;
+    font-size:90%;}
+*.box a{color:#efe3d3}
+
+
+}
