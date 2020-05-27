@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Karta Stałego Klienta</title>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="kst/js/js/funkcje.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  
+  <link href="kst/css/kst.css" rel="stylesheet">
+
+  <link href="kst/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="kst/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Odkrywaj PhotoStack</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="front.html">Strona głowna
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">Informacje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Kolekcje zdjęć</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Sklep</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kst.html">Karta Stałego Klienta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="more">
+    <div class="container text-center">
+      <h1>Dołącz do społeczności PhotoStack!</h1>
+      <p class="lead">Załóż Kartę Stałego Klienta i ciesz się dodatkowymi możliwościami</p>
+      <p> Zdjęcie autorstwa Daniela O'Dowoda </p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Formularz zgłoszeniowy: </h2>
+          <p class="lead">Po wypełnieniu i wysłaniu formularza dołączysz do społeczności PhotoStack</p>
+
+          <form  action="#" method="GET">
+            <fieldset class="form-group">
+              <div class="form-row">
+              <div class="col">
+                <input type="text" id="imie" name="imie" required class="form-control" placeholder="Imię" pattern="([A-ZŁŚa-z]{1,30}){1,}">
+              </div>
+              <div class="col">
+                <input type="text" id="nazwisko" name="nazwisko" required class="form-control" placeholder="Nazwisko" pattern="([A-ZŁŚa-z]{1,30}){1,}-?">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="col">
+                <label for="wiek">Wiek </label>
+                <input id="wiek" type="number" name="wiek" class="form-control" placeholder="Min 18 lat!" required pattern="[18-99]" min="18">
+              </div>      
+            </div>
+          </fieldset>
+
+
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Płeć</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" required name="plec" id="kobieta" value="kobieta">
+                  <label class="form-check-label" for="kobieta">
+                    Kobieta
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="plec" id="mezczyzna" value="mężczyzna">
+                  <label class="form-check-label" for="mezczyzna">
+                    Mężczyzna
+                  </label>
+                </div>
+                </div>
+            </div>
+          </fieldset>
+
+
+
+          <fieldset class="form-group">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required pattern="[a-z0-9]{1,10}@{1}[a-z]{1,20}\.{1}[a-z]{2,4}">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="numer">Numer telefonu</label>
+                <input type="text" class="form-control" name="telefon" id="numer" placeholder="xxx-xxx-xxx" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="ulica">Ulica i numer</label>
+              <input type="text" required name="ulica" class="form-control" id="ulica" >
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="miasto">Miasto</label>
+                <input type="text" required name="miasto" class="form-control" id="miasto">
+              </div>
+            </fieldset>
+
+            <fieldset id="agreement" class="form-group" >
+              <table >
+                <tr> <td><input type="checkbox" required/> </td> <td>Akceptuję regulamin strony </td>  </tr> 
+                <tr> <td><input type="checkbox"/> </td> <td>Wyrażam zgodę na przetwarzanie moich danych w celach marketingowych </td> </tr> 
+                <tr> <td><input type="checkbox"/> </td> <td>Chce otrzymywać powiadomienia o promocjach  </td> </tr> 
+                </table>
+            </fieldset>  
+        
+
+          <button type="submit" id="save" class="btn btn-outline-success"> Wyślij teraz </button>
+          <button type="reset" id="clear" class="btn btn-outline-danger">Wyczyść dane</button>
+        
+        </form>
+
+        <h3> Kliknij tutaj aby zobaczyć dane w sesji przeglądarki </h3>
+        <button id="show" class="btn btn-outline-info"> Pokaż moje zapisane dane </button>
+        <div id="list"> </div> 
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; AP 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="kst/js/jquery/jquery.min.js"></script>\
+ 
+  <script src="kst/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="kst/js/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="kst/js/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

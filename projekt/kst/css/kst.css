@@ -1,0 +1,64 @@
+
+
+#more{
+    background-image: url('https://images.unsplash.com/photo-1528295674080-a70f6cbf4ff0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80') ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    color: black;
+    
+}
+h1{
+    color: blanchedalmond;
+}
+#about h3{
+    font-size: 20px;
+}
+
+#more p{
+    color: blanchedalmond;
+}
+
+#about{
+    background-color: white;
+    
+}
+
+
+.choose{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .choose{
+      font-weight: bold;
+  }
+
+   } 
+
+#agreement{
+    color: black;
+    width: 100%;
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+   
+#personal h4, #tele h4, #send h4{
+    font-size: 10px;
+}
+
+#services{
+    background-image: url('https://images.unsplash.com/photo-1587297553536-81ab7321c7a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80') ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    color: rgb(255, 255, 255);
+    font-size: 50xp;
+}
+.tlo{
+    background-color: plum;
+    border: 3px dotted purple;
+}

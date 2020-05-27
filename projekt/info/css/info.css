@@ -1,0 +1,35 @@
+#more{
+    background-image: url('images/banner.jpg') ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    color: blanchedalmond;
+    
+}
+
+#services{
+    background-image: url('images/banner3.jpg') ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    color: rgb(255, 255, 255);
+    font-size: 50xp;
+}
+
+#about ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+#about li{
+    padding-left: 2em;
+    text-indent: -1em;
+}
+
+#about li::before{
+    content: "🌸";
+	position: absolute;
+    left: 6px;
+    margin-left: 12px;
+    color: blanchedalmond;
+}
