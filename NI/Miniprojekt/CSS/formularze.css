@@ -1,0 +1,26 @@
+body { 
+    color: #95DAFE; 
+    font-size: larger;
+}
+fieldset { 
+    background: #95DAFE;
+    border: 10px solid  #375887;
+}
+legend {
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-size: 150%; 
+    font-family: 'Niconne', cursive;
+    color: #30ACFF;
+ }
+table {
+        font-style: oblique; 
+        font-weight: bolder; 
+        font-size: 100%; 
+        color: #375887; 
+        font-family: 'Niconne', cursive;
+}
+
+#rest{
+    font-family: 'Righteous', cursive;
+}

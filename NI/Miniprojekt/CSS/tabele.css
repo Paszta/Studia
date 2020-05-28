@@ -1,0 +1,35 @@
+table{
+    background-color: #0a0f18;
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+    padding: 5px;
+    border: 10pt #95DAFE double;
+    border-radius: 15px 50px;
+ }
+ caption{
+     font-size: 120%;
+     font-weight: bold;
+ }
+ tfoot, thead, tbody{
+     background-color: #375887;
+     color:#30ACFF;
+     border: 0;
+     
+ }
+ td, th{
+     border: 1pt solid black;
+     border-radius: 15px 50px;
+ }
+ tfoot a{
+     color: #30ACFF;
+ }
+
+ tr:nth-child(2n){
+    background: #172941;
+ }
+
+ article
+ {
+     width: 50%;
+ }

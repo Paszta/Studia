@@ -1,0 +1,12 @@
+legend{
+    font-size: 200%;
+    text-decoration-line: underline;
+    font-family: 'Niconne', cursive;
+}
+
+fieldset{
+    border: 5px dashed #30ACFF;
+    border-radius: 20px;
+    padding: 5%;
+    font-family: 'Righteous', cursive;
+}

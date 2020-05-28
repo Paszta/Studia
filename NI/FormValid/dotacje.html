@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title> Dotacje</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1> FORMULARZ DOTACYJNY</h1>
+    <div>
+        <form action="#" method="get">
+            <p>
+                <fieldset>
+                    Beneficjent:<br />
+                    <input list="benef">
+                    <datalist id="benef">
+                        <option value="SOS Wioski Dziecięce">
+                        <option value="Wielka Orkiestra Świątecznej pomocy">
+                        <option value="Fundacja Pajacyk">
+                    </datalist><br />
+                    Wartość dotacji:<br />
+                    <input type="number" required name="wartosc" min="20" step="5"><br />
+                </fieldset>
+                <fieldset>
+                    <legend> Dane karty płatniczej </legend>
+                    <p>
+                        Visa: <input type="radio" name="czym" value="visa">
+                        MasterCard: <input type="radio" name="czym" value="mc"> <br />
+                        Numer:<br />
+                        <input pattern="^([0-9]{13}|[0-9]{16})$"><br />
+                        Data ważności:<br />
+                        <input type="month" name="data"><br />
+                        Numer CCV:<br />
+                        <input type="password" pattern="^([0-9]{3,4})$"><br />
+                    </p>
+                </fieldset>
+                Darczyńca:<br />
+                <input required name="imie" pattern="^([a-zA-Z]{2,}+\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,})$"><br />
+                <input type="submit" value="Rejestruj">
+                <input type="reset" value="Wyczyść">
+
+        </form>
+    </div>
+</body>
+
+</html>

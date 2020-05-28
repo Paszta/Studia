@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rozha+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Niconne&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/formularze.css" type="text/css" />
+		<title> Formularz </title>
+	</head>
+	<body>
+		<main>
+			<header><h1>Szybki kurs HTML</h1></header>
+			<nav>
+				<ul id="nav">
+					<li><a href="index.html">Podstawowe  znaczniki</a></li>
+					<li><a href="tabele.html">Tworzenie tabel</a></li>
+					<li><a href="">Przejdź do formualrzy</a>
+					<ul>
+						<li><a href="formularze.html">Pole formularza</a></li>
+						<li><a href="Kalkulator.html">Obliczenia w formularzu</a></li>
+						<li><a href="obliczenia.html">Oblicz ratę</a></li>
+					</ul>
+					</li>
+					<li><a href="galeria.html"> Galeria zdjęć</a></li>
+				</ul>
+			</nav>
+			<section>
+			<article >
+				<h2>Zamów kurs z języka: </h2>
+                <form action="mailto:" method="POST">
+					<fieldset>
+					<legend> Dane kontaktowe </legend>
+						<table >
+							<tbody>
+								<tr> <td>Imie : </td> <td> <input required type="text" name="imie" pattern="^([A-ZŁŚ][a-zśćżźńłąęó]{1,25})$"/> </td> </tr> 
+                   				<tr> <td>Nazwisko : </td> <td> <input required type="text" name="nazwisko" pattern="^([A-ZŁŚŹŻĆ][a-zśćżźńłąęó]{1,25})$"/> </td> </tr> 
+                    			<tr> <td>Wiek : </td> <td><input required type="number" name="wiek" min ="10" max="99" placeholder="10-99"/> lat </td> </tr>
+                    			<tr><td>Państwo :</td> <td> 
+									<select name="panstwo">
+                    					<option value="polska">Polska</option>
+                    					<option value="sinne">Inne</option>
+									</select>
+								</td>
+								</tr>
+								<tr><td>Adres email :</td> <td> <input type="email" name="adres" pattern=".{1,25}@\w{1,25}\.\w+$" placeholder="xxxxxxxxxx@xxx.xx"/> </td></tr>
+								<tr><td>Kiedy chcesz rozpocząć kurs :</td> <td> <input type="date" name="data"/> </td></tr>
+							</tbody>
+						</table>
+					</fieldset>
+				
+			<div id="rest">	
+			<h3>Zamawaim kurs z języka</h3>
+			<input type="checkbox" name="php" value="php"/> PHP
+			<input type="checkbox" name="c/c++" value="c/c++"/> C/C++
+			<input type="checkbox" name="java" value="java"/> Java
+			<input type="checkbox" name="hla" value="hla"/> HLA
+			<br>
+			<h3>Sposób zapłaty</h3>
+			<input type="radio" name="zaplata" value="ec"/> Eurocard <br>
+			<input type="radio" name="zaplata" value="v"/> Visa <br>
+			<input type="radio" name="zaplata" value="pb"/> Przelew bankowy <br><br>
+			<input type="submit" value="Wyślij"/>
+			<input type="reset" value="Wyczyść"/>
+		</div>	
+                </form>
+			</article>
+			<aside>
+				<div class="box">
+					<h3>Walidatory: </h3>
+						<ul>
+						<li> <a href="http://validator.w3.org/">HTML </a></li>
+						<li> <a href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
+					   </ul>					   
+				</div>
+				<div class="box">
+					<h3>Kursy: </h3>
+					<ul>
+						<li> <a href="http://www.w3schools.com/html/default.asp/"> HTML</a> </li>
+						<li> <a href="http://www.w3schools.com/html5/default.asp/"> HTML5</a></li>
+						<li> <a href="http://www.w3schools.com/css/default.asp/">CSS</a></li>
+						<li> <a href="http://www.w3schools.com/css3/default.asp/"> CSS3</a></li>
+					</ul>
+				</div>
+			</aside>
+		</section>
+			<footer>&copy;AP</footer>
+		</main>
+	</body>
+</html>
