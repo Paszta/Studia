@@ -29,6 +29,28 @@ $(document).ready(function(){
 
 
   $('#show').click(function(){
+      pokaz();
+  });
+
+
+    $('#clear').click(function(){
+       localStorage.clear();
+       $('#list').html("");
+
+    });
+
+
+
+});
+
+function rem(i){
+    var lista = JSON.parse(localStorage.getItem('lista'));
+    if(confirm("Usuąć dane?")) lista.splice(i,1);
+    localStorage.setItem('lista', JSON.stringify(lista));
+    pokaz();
+
+}
+function pokaz(){
     var lista = JSON.parse(localStorage.getItem('lista'));
     var element = $('#list');
     var tekst="";
@@ -49,6 +71,8 @@ $(document).ready(function(){
             tekst+= "<tr>" + "<td> Numer telefonu: </td>" + "<td>" + lista[i].nr +"</td>" + "</tr>";
             tekst+= "<tr>" + "<td> Ulica i numer: </td>" + "<td>" + lista[i].street +"</td>" + "</tr>";
             tekst+= "<tr>" + "<td> Miasto: </td>" + "<td>" + lista[i].city +"</td>" + "</tr>";
+            tekst+= "<tr> <td>  <button class='remove btn btn-outline-danger' onclick='rem("+i+")'> X </button> </td> </tr>";
+
             tekst+="</table>";
         }
     }
@@ -57,14 +81,4 @@ $(document).ready(function(){
 
     element.html(tekst);
 
-    });
-
-
-    $('#clear').click(function(){
-       localStorage.clear();
-       $('#list').html("");
-
-    });
-
-
-});
+    }
