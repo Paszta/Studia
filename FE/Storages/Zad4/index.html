@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Zadanie 4</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script  type="text/javascript" src="JS/funkcje.js"></script>
+
+</head>
+
+<body>
+    <from>
+        <fieldset>
+            <legend> Dane przedmiotu do kupienia: </legend>
+        <table>
+
+        <tr> <td>Nazwa produktu:</td> <td><input id="nazwa" name="nazwa"/></td>  </tr>
+        <tr> <td>Cena: </td> <td><input type="number" id="cena" name="cena"/> </td> <td> zł </td> </tr>
+        <tr> <td>Kolor: </td> <td><input id="kolor" name="kolor"/> </td></tr>
+        <tr> <td>Liczba sztuk: </td> <td> <input type="number" id="liczba" name="liczba"/> </td></tr>
+
+        </table>
+
+        <button  id="zapisz"> Zapisz produkt do koszyka </button> 
+        <button id="wyswietl" onclick="pokaz()"> Wyświetl koszyk </button> 
+        <button id="wyczysc"> Usuń produkty z koszyka </button>
+        </fieldset>
+
+    </form>
+
+<h2> Lista zakupów: </h2>
+<div id="list"> 
+    
+</div>
+</body>
+
+</html>

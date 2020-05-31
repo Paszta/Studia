@@ -25,7 +25,6 @@ $(document).ready(function () {
 
     // for(let i = 0; i< lista.length; i++){
     //     $('#list').append(lista[i].nazwa_produktu + " " + lista[i].cena + " " +lista[i].kolor + " " + lista[i].ilosc + "<br/>")
-    $('#list').append('<table style="border: 2px solid black;">');
     $('#list').append("<tr> <td> Nazwa produktu </td> <td> Cena </td> <td> Kolor </td> <td> Ilość </td></tr>");
 
 
