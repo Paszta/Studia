@@ -9,7 +9,7 @@ function dodaj_1(){
 
     var n1 = "Bunch of Sunflowers";
 
-    localStorage.setItem(n1, radio1);
+    sessionStorage.setItem(n1, radio1);
 
 
 }
@@ -25,7 +25,7 @@ function dodaj_2(){
 
     var n2 = "White Flowers...";
 
-    localStorage.setItem(n2, radio2);
+    sessionStorage.setItem(n2, radio2);
 
 
 }
@@ -42,7 +42,7 @@ function dodaj_3(){
 
     var n3 = "Brown Brick House";
 
-    localStorage.setItem(n3, radio3);
+    sessionStorage.setItem(n3, radio3);
 
 
 }
@@ -59,7 +59,7 @@ function dodaj_4(){
 
     var n4 = "Pink Flower";
 
-    localStorage.setItem(n4, radio4);
+    sessionStorage.setItem(n4, radio4);
 
 
 }
@@ -77,7 +77,7 @@ function dodaj_5(){
 
     var n5 = "Forest";
 
-    localStorage.setItem(n5, radio5);
+    sessionStorage.setItem(n5, radio5);
 
 
 }
@@ -95,20 +95,20 @@ function dodaj_6(){
 
     var n6 = "Yellow Bird";
 
-    localStorage.setItem(n6, radio6);
+    sessionStorage.setItem(n6, radio6);
 
 
 }
 
 function wyczysc(){
-    localStorage.clear();
+    sessionStorage.clear();
     document.getElementById("lista").innerHTML="";
 }
 
 function pokaz(){
  
-        for(var i=0;i<localStorage.length;i++) { 
-         $('#lista').append("<p id= "+i+ ">" + localStorage.key(i) + " : " + localStorage.getItem(localStorage.key(i))+ " zł"+ "</br>" + "</p>" )        
+        for(var i=0;i<sessionStorage.length;i++) { 
+         $('#lista').append("<p id= "+i+ ">" + sessionStorage.key(i) + " : " + sessionStorage.getItem(sessionStorage.key(i))+ " zł"+ "</br>" + "</p>" )        
         }
               
     
@@ -117,4 +117,22 @@ function pokaz(){
 function odswiez(){
     document.getElementById("lista").innerHTML="";
     pokaz();
+}
+
+ function suma(){
+
+
+    var sum = 0; 
+    if(sessionStorage.length >0){
+        for(var i=0, len=sessionStorage.length; i<len; i++ ){
+            var key = sessionStorage.key(i);
+            var val = sessionStorage.getItem(key);
+            var valu =val.split("*");
+            sum+=parseInt(valu[0]);
+                }
+    }
+
+    var s = document.getElementById("suma");
+     s.value = sum;  
+
 }
