@@ -119,16 +119,14 @@ function odswiez(){
     pokaz();
 }
 
+
  function suma(){
-
-
     var sum = 0; 
     if(sessionStorage.length >0){
         for(var i=0, len=sessionStorage.length; i<len; i++ ){
             var key = sessionStorage.key(i);
             var val = sessionStorage.getItem(key);
-            var valu =val.split("*");
-            sum+=parseInt(valu[0]);
+            sum+=parseInt(val);
                 }
     }
 

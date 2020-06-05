@@ -119,8 +119,12 @@ function pokaz(){
         lista[i].street = n_ulica;
         lista[i].city = n_miasto;
 
-        localStorage.setItem('lista', JSON.stringify(lista));
 
+        if(validation_z()){
+
+            localStorage.setItem('lista', JSON.stringify(lista));
+            }
+    
         pokaz();
     }
 
@@ -131,6 +135,7 @@ function pokaz(){
 
     }
 
+
     function validation(){
         return(document.getElementById('imie').checkValidity() 
         && document.getElementById('nazwisko').checkValidity() 
@@ -138,4 +143,11 @@ function pokaz(){
         && document.getElementById('numer').checkValidity());
     }
 
+    
+    function validation_z(){
+        return(document.getElementById('z_imie').checkValidity() 
+        && document.getElementById('z_nazwisko').checkValidity() 
+        && document.getElementById('z_email').checkValidity() 
+        && document.getElementById('z_numer').checkValidity());
+    }
   
