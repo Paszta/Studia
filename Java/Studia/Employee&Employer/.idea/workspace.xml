@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f9e11f-0a9e-44c0-ba77-a04d35a88cbf" name="Default Changelist" comment="" />
+    <list default="true" id="16f9e11f-0a9e-44c0-ba77-a04d35a88cbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab12/Lab12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab12/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab12/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/out/production/Studia/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/out/production/Studia/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/bin/app/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/bin/app/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/bin/app/App$Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/bin/app/App$Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/bin/app/App$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/bin/app/App$Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab8/bin/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab8/bin/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laby11_inout/out/production/laby11_inout/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../laby11_inout/out/production/laby11_inout/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laby11_inout/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laby11_inout/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +44,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1Zi9MdT5iKABd13keBLv5pFSCje" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../czelncz" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab8" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -53,15 +89,27 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1585863397189">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585863397189" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1586168934042">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="632" y="148" key="FileChooserDialogImpl" timestamp="1591981254042">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586168934042" />
+    <state x="632" y="148" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1591981254042" />
     <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1585870657832">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -6,7 +6,7 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
+import java.io.*;
 
 public class Main extends JFrame implements ActionListener {
 
@@ -61,10 +61,52 @@ public class Main extends JFrame implements ActionListener {
         if(e.getSource()== b1){
             JFileChooser fc = new JFileChooser();
             if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
+
                 File file = fc.getSelectedFile();
                 String path = file.getAbsolutePath();
+                String line = "", tekst = "";
+                BufferedReader br = null;
+                try {
+                    br = new BufferedReader(new FileReader(path));
+                } catch (FileNotFoundException fileNotFoundException) {
+                    fileNotFoundException.printStackTrace();
+                }
+                while(true){
+                    try {
+                        if (!((line=br.readLine())!=null)) break;
+                    } catch (IOException ioException) {
+                        ioException.printStackTrace();
+                    }
+                    tekst+=line;
+                }
+                edit_page.setText(tekst);
             }
 
+        }
+
+        if(e.getSource()==b2){
+            JFileChooser fc = new JFileChooser();
+            if (fc.showSaveDialog(Main.this) == JFileChooser.APPROVE_OPTION) {
+
+                File file = fc.getSelectedFile();
+                String path = file.getAbsolutePath();
+                BufferedWriter wr = null;
+                try {
+                    wr = new BufferedWriter(new FileWriter(path));
+                } catch (IOException ioException) {
+                    ioException.printStackTrace();
+                }
+                try {
+                    wr.write(edit_page.getText());
+                } catch (IOException ioException) {
+                    ioException.printStackTrace();
+                }
+                try {
+                    wr.close();
+                } catch (IOException ioException) {
+                    ioException.printStackTrace();
+                }
+            }
         }
     }
 }

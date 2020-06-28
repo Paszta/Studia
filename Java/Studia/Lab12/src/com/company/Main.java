@@ -2,8 +2,10 @@ package com.company;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Main extends JFrame {
+public class Main extends JFrame implements ActionListener {
     private JPanel panel = new JPanel();
     private SpringLayout layout = new SpringLayout();
     JEditorPane edit_pane = new JEditorPane();
@@ -49,5 +51,10 @@ public class Main extends JFrame {
 
     public static void main(String[] args) {
 	Main app = new Main();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
     }
 }
