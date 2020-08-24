@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Aug 20 23:52:32 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0174-0ddb-f366-00000f37a928 
+on database directory E:\Repo\ApaczWorkbencz\Kitki with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
+Loaded from file:/C:/Users/AlicjaPasztelan/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=14.0.2+12-46
+user.dir=E:\Repo\ApaczWorkbencz
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
