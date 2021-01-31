@@ -1,0 +1,3 @@
+Pasztelan 20 Polska pasztelana@gmail.com php, java, przelew bankowy 
+Kowalski 34 Anglia k.kowal@gmail.com php, c_cpp, eurocard 
+Aaa 56 Polska aa@aaa.com c_cpp, java, visa 

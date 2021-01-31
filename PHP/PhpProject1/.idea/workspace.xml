@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8816365d-cfdf-471a-be7e-2404827d406c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="897f810b-dadd-4918-a914-dc51e18df049" name="XAMPP" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1iyRDcXLLVOVt9CT2tFn0eje3GG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpszablon" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="XAMPP" start_url="http://localhost/PhpProject1/formularz.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8816365d-cfdf-471a-be7e-2404827d406c" name="Default Changelist" comment="" />
+      <created>1602877726128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602877726128</updated>
+      <workItem from="1602877727172" duration="37000" />
+      <workItem from="1602877833061" duration="366000" />
+      <workItem from="1603374611453" duration="1399000" />
+      <workItem from="1603376054018" duration="17000" />
+      <workItem from="1603376578061" duration="314000" />
+      <workItem from="1603376921676" duration="41000" />
+      <workItem from="1603385530674" duration="6463000" />
+      <workItem from="1603434035042" duration="5692000" />
+      <workItem from="1603817044064" duration="350000" />
+      <workItem from="1604003397119" duration="1842000" />
+      <workItem from="1604042199856" duration="5748000" />
+      <workItem from="1604221993418" duration="1844000" />
+      <workItem from="1604315626103" duration="7648000" />
+      <workItem from="1604417815366" duration="11217000" />
+      <workItem from="1604589485079" duration="1824000" />
+      <workItem from="1604613168732" duration="865000" />
+      <workItem from="1604647076275" duration="2496000" />
+      <workItem from="1605219382348" duration="259000" />
+      <workItem from="1605251715630" duration="15000" />
+      <workItem from="1605631919037" duration="1812000" />
+      <workItem from="1605820148747" duration="1140000" />
+      <workItem from="1606311994060" duration="2837000" />
+      <workItem from="1606461228497" duration="13000" />
+      <workItem from="1608137264908" duration="2886000" />
+      <workItem from="1608210491149" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

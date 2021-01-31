@@ -1,0 +1,72 @@
+
+
+#more{
+    background-image: url('https://images.unsplash.com/photo-1605468275444-5989178e0a87?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+
+}
+h1{
+    color: #ff601e;
+    font-size: 40px;
+}
+#about h3{
+    font-size: 40px;
+}
+
+#more p{
+    color: blanchedalmond;
+}
+
+#about{
+    background-color: white;
+
+}
+
+
+.choose{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+    .choose{
+        font-weight: bold;
+    }
+
+}
+
+
+
+#personal h4, #tele h4, #send h4{
+    font-size: 10px;
+}
+
+#services{
+    background-image: url('https://images.unsplash.com/photo-1561136594-7f68413baa99?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.tlo{
+    background-color: rgb(245, 231, 245);
+}
+
+input[type=submit]{
+    background: white ;
+    border: #4aaa45 solid;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=reset]{
+    background: white ;
+    border: #ff5074 solid;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formularz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <form action="odbierz.php" method="GET">
+
+        <p>
+            <label for="nazwisko">
+                Nazwisko: 
+                <input type="text" name="nazwisko">
+            </label>
+        </p>
+
+        <p>
+            <label for="wiek">
+                Wiek: 
+                <input type="number" name="wiek">
+            </label>
+        </p>
+
+        <p>
+            <label for="nazwisko">
+                Państwo: 
+                <select name="panstwo">
+                    <option value="pl">Polska</option>
+                    <option value="en">Anglia</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label for="email">
+                Email: 
+                <input type="email" name="email">
+            </label>
+        </p>
+
+        <p>
+            <strong>Zamawiam tutorial z języka: </strong>
+            <label for="php">
+                <input type="checkbox" name="jezyki[]" value="php"> PHP
+            </label>
+            <label for="c_cpp">
+                <input type="checkbox" name="jezyki[]" value="c_cpp"> C/C++
+            </label>
+            <label for="java">
+                <input type="checkbox" name="jezyki[]" value="java"> Java
+            </label>
+        </p>
+
+        <p>
+            <strong>Sposób zapłaty: </strong>
+            <label>
+                <input type="radio" name="sposob_zaplaty" value="eurocard"> eurocard
+            </label>
+            <label>
+                <input type="radio" name="sposob_zaplaty" value="visa"> visa
+            </label>
+            <label>
+                <input type="radio" name="sposob_zaplaty" value="przelew_bankowy"> przelew bankowy
+            </label>
+        </p>
+
+        <p>
+            <input type="submit" name="submit" value="Wyślij">
+            <input type="reset" value="Anuluj">
+        </p>
+    </form>
+    </body>
+</html>

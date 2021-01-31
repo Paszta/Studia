@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53983956-bda0-4079-922e-cd4ad22611e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="fc086ec0-95a5-47b3-90ef-e0b890522cae" name="XAMPP" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1jmmuce08IiHqYiFRMo0SaypaVS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" nameIsGenerated="true" server_name="XAMPP" start_url="http://localhost/Lab4/ankieta.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53983956-bda0-4079-922e-cd4ad22611e5" name="Default Changelist" comment="" />
+      <created>1604417864195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604417864195</updated>
+      <workItem from="1604417865238" duration="16895000" />
+      <workItem from="1604600052525" duration="1273000" />
+      <workItem from="1604616940647" duration="181000" />
+      <workItem from="1604647331709" duration="1775000" />
+      <workItem from="1605251731510" duration="2636000" />
+      <workItem from="1607433015675" duration="601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="187" key="#Servers" timestamp="1604419458417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="187" key="#Servers/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604419458417" />
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604419501166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604419501166" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605251743191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605251743191" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1604417894128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604417894128" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604419526985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604419526985" />
+  </component>
+</project>

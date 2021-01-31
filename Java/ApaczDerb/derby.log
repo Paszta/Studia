@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Tue Aug 18 19:27:14 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0174-029c-566e-00000f80a098 
+on database directory E:\Repo\ApaczDerb\derbyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
+Loaded from file:/C:/Users/AlicjaPasztelan/.m2/repository/org/apache/derby/derby/10.11.1.1/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=14.0.2+12-46
+user.dir=E:\Repo\ApaczDerb
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Aug 18 19:27:14 CEST 2020: Shutting down Derby engine
+----------------------------------------------------------------
+Tue Aug 18 19:27:15 CEST 2020:
+Shutting down instance a816c00e-0174-029c-566e-00000f80a098 on database directory E:\Repo\ApaczDerb\derbyDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5a07e868 
+----------------------------------------------------------------
